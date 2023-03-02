@@ -46,3 +46,6 @@ streamlit.dataframe(my_data_rows)
 #New Section to display fruityvice api response
 fruit_choice2 = streamlit.text_input('What fruit would you like to add?')
 streamlit.write('Thanks for adding: ', fruit_choice2)
+
+#this will not work correctly but go ahead and do it
+my_cur.execute("insert into fruit_load_list values ('from streamlit')");
